@@ -26,7 +26,7 @@ const Navbar = ({
             </div>
             <div className="flex  gap-8 font-notosans">
               <span className='hidden  md:flex sm:flex gap-8'>
-                <NavItem  className="mt-2" color="text-navbar-color" title="Evento" href="#Home_Page"/>
+                <NavItem   color="text-navbar-color" title="Eventos" href="#Home_Page"/>
                 <NavItem color="text-navbar-color" title="Comunidad" href="#About_Page" />
                 {/* <NavItem color="text-navbar-color" title="Es" href="#Unete_Page" /> Comentado hasta implentar el idioma */}
               </span>
