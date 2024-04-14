@@ -10,7 +10,7 @@ interface NavItemProps {
 const NavItem: React.FC<NavItemProps> = ({ color, title, href = '#' }) => {
   const isActive = typeof window !== 'undefined' && window.location.pathname === href;
 
-  const className = `  py-2 ${color} text-md font-bold  ${isActive ? 'active' : ''}`;
+  const className = `  py-2 ${color}  text-sm sm:text-md font-bold  ${isActive ? 'active' : ''}`;
   
   return (
     <Link href={href} passHref className={className}>
