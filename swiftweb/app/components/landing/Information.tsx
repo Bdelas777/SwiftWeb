@@ -11,8 +11,9 @@ const Home = () => {
        ¿QUIÉNES SOMOS?
       </h2>
       
-      <h2 className='text-white text-MD sm:text-LG  md:text-3xl lg:text-5xl flex flex-col m-auto items-center 
-      font-bold my-12 ml-10 w-[800px]' >
+      <h2 className='text-white text-MD sm:text-LG  md:text-3xl lg:text-5xl flex flex-col
+       m-auto items-center 
+      font-bold my-12  w-[600px] sm:w-[800px] pl-8' >
        SwiftTec es un grupo estudiantil en el que buscamos compartir nuestros conocimientos y experiencias de Swift. 
       </h2>
       
