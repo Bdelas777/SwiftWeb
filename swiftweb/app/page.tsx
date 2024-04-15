@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/landing/Home";
+import Information from "./components/landing/Information";
 
 export default function Landing() {
   return (
@@ -10,6 +11,10 @@ export default function Landing() {
       <div className="  rounded-2xl bg-navbar-color  mt-[85px]">
       <Home />
       </div>
+      <div className="  rounded-2xl bg-navbar-color  mt-12">
+      <Information />
+      </div>
+      
       
     </main>
   );
